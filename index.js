@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 3000;
 const primaryTransport = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "ssucathy@gmail.com",
-    pass: "upku hsit ejgg mbhd",
+    user: "senderemail",
+    pass: "senderpassword",
   },
 });
 
@@ -24,8 +24,8 @@ const primaryTransport = nodemailer.createTransport({
 const backupTransport = nodemailer.createTransport({
   service: "hotmail",
   auth: {
-    user: "ssucathy@gmail.com",
-    pass: "upku hsit ejgg mbhd",
+    user: "senderemailbackup",
+    pass: "passwordemailbackup",
   },
 });
 
